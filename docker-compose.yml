@@ -39,6 +39,7 @@ services:
     ports:
       - "27017:27017"
       - "28017:28017"
+    command: ["--replSet", "mongo-replica-set"]
 
   mysql-8:
     image: mysql:8-oracle
