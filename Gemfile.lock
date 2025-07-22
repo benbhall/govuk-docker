@@ -65,7 +65,7 @@ GEM
     rubocop-rspec (2.7.0)
       rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
-    thor (1.2.1)
+    thor (1.4.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
@@ -79,7 +79,7 @@ DEPENDENCIES
   pry
   rspec
   rubocop-govuk
-  thor
+  thor (>= 1.4.0)
 
 BUNDLED WITH
    2.1.4
